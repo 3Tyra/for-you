@@ -1,0 +1,139 @@
+/* teddy.css - Isolated Teddy Page Styles */
+
+.teddy-page-container {
+  min-height: 100vh;
+  width: 100%;
+  background: linear-gradient(135deg, rgba(255, 0, 0, 0.438), rgba(165, 42, 42, 0.678), #fbc2eb, #a18cd1);
+  background-size: 400% 400%;
+  animation: teddy-gradientMove 10s ease infinite;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+}
+
+@keyframes teddy-gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.teddy-yaaay-text {
+  font-size: 3.5rem;
+  font-weight: 900;
+  color:black;
+}
+
+.teddy-valentine-text {
+  font-size: 3.4rem;
+  color: black;
+  font-weight: 800;
+}
+
+.teddy-page-image {
+  width: 260px;
+  filter: drop-shadow(0 15px 30px rgba(0,0,0,0.3));
+  border-radius: 20px;
+}
+
+.teddy-page-buttons {
+  display: flex;
+  gap: 25px;
+  margin-top: 20px;
+}
+
+.teddy-back-btn {
+  padding: 14px 34px;
+  border-radius: 40px;
+  background: white;
+  color: #ff4d6d;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  transition: all 0.3s ease;
+}
+
+.teddy-back-btn:hover {
+  transform: scale(1.05);
+}
+
+.teddy-next-btn {
+  padding: 14px 34px;
+  border-radius: 40px;
+  background: linear-gradient(45deg, #ff4d6d, #ff85a2);
+  color: white;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 8px 25px rgba(255,77,109,0.6);
+  transition: all 0.3s ease;
+}
+
+.teddy-next-btn:hover {
+  transform: scale(1.05);
+}
+
+/* Floating hearts */
+.teddy-hearts {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.teddy-heart {
+  position: absolute;
+  font-size: 1.5rem;
+  color: #ff4d6d;
+  animation: teddy-heart-float 6s linear infinite;
+}
+
+@keyframes teddy-heart-float {
+  0% {
+    transform: translateY(0) rotate(0deg);
+    opacity: 0.7;
+  }
+  50% {
+    transform: translateY(-150px) rotate(15deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-300px) rotate(-10deg);
+    opacity: 0;
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .teddy-yaaay-text {
+    font-size: 3rem;
+  }
+  .teddy-valentine-text {
+    font-size: 1.2rem;
+  }
+  .teddy-page-image {
+    width: 220px;
+  }
+}
+
+@media (max-width: 768px) {
+  .teddy-yaaay-text {
+    font-size: 2.5rem;
+  }
+  .teddy-valentine-text {
+    font-size: 1rem;
+  }
+  .teddy-page-image {
+    width: 180px;
+  }
+  .teddy-page-buttons {
+    flex-direction: column;
+    gap: 15px;
+  }
+}

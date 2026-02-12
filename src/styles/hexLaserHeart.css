@@ -5,6 +5,11 @@ body, html {
   height: 100%;
   background:black; 
   overflow: hidden;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;  /* prevents side scroll */
+  overflow-y: auto;    /* allows vertical scroll */
+
 }
 
 .laser-heart-container {

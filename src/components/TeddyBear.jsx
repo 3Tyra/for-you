@@ -25,7 +25,7 @@ export default function TeddyBear({ onBack, onNext }) {
         animate={{ opacity: 1 }}
         transition={{ delay: 0.6 }}
       >
-        He accepted to be my Valentine !!!!🥹
+        You accepted to be my Valentine🥹
       </motion.p>
 
       {/* Dancing Teddy */}
@@ -70,7 +70,9 @@ export default function TeddyBear({ onBack, onNext }) {
               duration: Math.random() * 4 + 4,
               repeat: Infinity,
               delay: Math.random() * 3,
+              
             }}
+            
           >
             💕
           </motion.span>

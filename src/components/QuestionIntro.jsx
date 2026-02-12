@@ -33,7 +33,7 @@ export default function QuestionIntro({ onYes }) {
         </motion.div>
 
         <h1 style={{ fontSize: "5.5rem" }}>
-          Hiii <span>Babbyy</span>
+          Niaje <span>Msupa Dupa</span>
         </h1>
 
         <p style={{ fontSize: "2.5rem", margin: "20px 0" }}>
@@ -56,7 +56,7 @@ export default function QuestionIntro({ onYes }) {
             }}
             onClick={onYes}
           >
-            YAAAAAASS
+            YAAASS
           </motion.button>
 
           <motion.button

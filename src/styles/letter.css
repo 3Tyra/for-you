@@ -1,4 +1,11 @@
 /* BACKGROUND */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;  /* prevents side scroll */
+  overflow-y: auto;    /* allows vertical scroll */
+}
+
 .letter-wrapper {
   height: 100vh;
   width: 100vw;
@@ -6,7 +13,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: radial-gradient(circle at top, #5a0000, #1a0000);
+  background: palevioletred;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -16,7 +23,7 @@
   letter-spacing: 6px;
   font-size: 1.2rem;
   font-weight: 700;
-  color: #f5d6a0;
+  color: black;
   margin-bottom: 15px;
 }
 
@@ -25,13 +32,13 @@
   width: 600px;
   max-width: 90%;
   min-height: 500px;
-  background: #f7e2c8;
+  background: palevioletred;
   border-radius: 30px;
   box-shadow: 0 0 40px rgba(255, 215, 150, 0.6);
   transform-origin: top;
   overflow: hidden;
   position: relative;
-  border: 2px solid #d4b483;
+  border: 2px solid pink;
   border-top: 0;
   border-bottom: 0;
 }
@@ -40,7 +47,7 @@
 .scroll-rod {
   height: 25px;
   width: 100%;
-  background: #b8860b;
+  background:palevioletred;
   border-radius: 50%;
 }
 
@@ -49,9 +56,9 @@
 
 /* CONTENT */
 .scroll-content {
-  padding: 3rem 3.5rem;
+  padding: 1rem 3.5rem;
   text-align: center;
-  background: url("https://cdn.pixabay.com/photo/2012/05/07/03/35/paper-47838_640.png");
+  background: url("https://image.slidesdocs.com/responsive-images/docs/gray-love-letter-heart-frame-word-template_6cc04478f9__1131_1600.jpg");
   background-size: cover;
 }
 
@@ -59,7 +66,7 @@
   font-size: 1.15rem;
   line-height: 1.8rem;
   color: #330000;
-  margin-bottom: 1.8rem;
+  margin-bottom: 0.0rem;
 }
 
 /* GIF INSIDE LETTER */
@@ -80,7 +87,7 @@
 .continue-btn {
   padding: 10px 24px;
   border-radius: 20px;
-  background: #8b0000;
+  background: palevioletred;
   color: #fff;
   border: none;
   cursor: pointer;

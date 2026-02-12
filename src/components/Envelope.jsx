@@ -112,7 +112,7 @@ export default function Envelope({ onBack, onNext }) {
       >
         <div className="magazine-title">
           <h1 className="main-title">Memories Magazine</h1>
-          <p className="subtitle">Volume 2026 • Special Edition</p>
+          <p className="subtitle">drum rollsss teden teden</p>
         </div>
         <div className="magazine-ornament"></div>
       </motion.header>
@@ -137,8 +137,9 @@ export default function Envelope({ onBack, onNext }) {
             <div className="cover-front">
               <div className="cover-image"></div>
               <div className="cover-title">
-                <h2>Our Story</h2>
+                <h2></h2>
                 <p className="edition">Limited Edition</p>
+                <p className="edition">The following pictures were taken by Tyra aka your genius wife</p>
               </div>
               <div className="cover-ornaments">
                 <div className="ornament"></div>
@@ -147,16 +148,16 @@ export default function Envelope({ onBack, onNext }) {
               </div>
               <div className="open-hint">
                 <span className="hint-arrow">↓</span>
-                <span className="hint-text">Open to explore</span>
+                <span className="hint-text">Click this</span>
               </div>
             </div>
             <div className="cover-back">
               <div className="back-content">
                 <h3>Inside This Issue</h3>
                 <ul className="contents-list">
-                  <li>• You can see how Manu is a Mlevi</li>
-                  <li>• You can see that he is blind wah</li>
-                  <li>• Tumeiva pia</li>
+                  <li>• You can see how drunk you are</li>
+                  <li>• You can see that you blind wah(you closed your eyes in all pictures)</li>
+                  <li>• You can see how we can be good parents(hot parents)</li>
                   
                 </ul>
               </div>
@@ -173,8 +174,7 @@ export default function Envelope({ onBack, onNext }) {
                 exit={{ opacity: 0, scale: 0 }}
                 transition={{ delay: 0.5 }}
               >
-                <span className="reveal-icon">✨</span>
-                <p className="reveal-text">Memories Revealed!</p>
+                
               </motion.div>
             )}
           </AnimatePresence>

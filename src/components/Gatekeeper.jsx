@@ -156,7 +156,7 @@ export default function Gatekeeper({ onAuthorized }) {
                 animate={{ opacity: 1 }}
                 transition={{ delay: 0.5 }}
               >
-                PRIVATE ACCESS ONLY
+                HAIIIIIIII
               </motion.h1>
 
               {/* Sliding Message (No Card) */}
@@ -171,13 +171,13 @@ export default function Gatekeeper({ onAuthorized }) {
                   delay: 0.8
                 }}
               >
-                <h2 className="warning-title">IMPORTANT NOTICE</h2>
+                <h2 className="warning-title">MY CODED LOVE</h2>
                 <div className="message-body">
                   <p className="main-warning">
-                    HELLO, THIS IS FOR <span className="highlight">EMMANUEL KAGUNYI</span> ONLY!
+                    HEYYYY <span className="highlight">BABYYY</span> I MADE THIS WEBSITE FOR YOU!
                   </p>
                   <p className="sub-warning">
-                    IF YOU AREN'T EMMANUEL, KINDLY SHIFT AWAY FROM THIS PAGE!
+                    ITS ALL LOVEEEEE
                   </p>
                 </div>
                 <div className="message-divider"></div>
@@ -195,7 +195,7 @@ export default function Gatekeeper({ onAuthorized }) {
                 transition={{ delay: 1.5 }}
               >
                 <p className="confirm-identity-text">
-                  Are you Emmanuel Kagunyi?
+                  CLICK BELOW TO PROCEED
                 </p>
                 <motion.button
                   className="identity-confirm-button"
@@ -207,10 +207,10 @@ export default function Gatekeeper({ onAuthorized }) {
                     backgroundColor: identityConfirmed ? "#00ff88" : "#8b4513"
                   }}
                 >
-                  {identityConfirmed ? "✓ Verified" : "Yes, I am Emmanuel"}
+                  {identityConfirmed ? "✓ Verified" : "CONTINUE"}
                 </motion.button>
                 <p className="confirm-warning">
-                  Only proceed if you are Emmanuel Kagunyi
+                  It has just began!
                 </p>
               </motion.div>
             </motion.div>
@@ -236,7 +236,7 @@ export default function Gatekeeper({ onAuthorized }) {
               >
                 <h2 className="passcode-title">Final Verification</h2>
                 <p className="passcode-subtitle">
-                  Please enter our special date to proceed
+                  Enter our special date to proceed
                 </p>
               </motion.div>
 
@@ -378,7 +378,7 @@ export default function Gatekeeper({ onAuthorized }) {
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ delay: 0.5 }}
               >
-                Welcome, Emmanuel! 
+                Welcome, Babee! 
               </motion.p>
 
               <motion.p

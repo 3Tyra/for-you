@@ -44,4 +44,4 @@ export default function App() {
     default:
       return <Gatekeeper onAuthorized={handleAuthenticated} />;
   }
-}
+} 

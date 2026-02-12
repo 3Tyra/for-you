@@ -6,7 +6,7 @@ export default function LoveLetter({ onOpen, onBack }) {
     <div className="letter-wrapper">
 
       {/* READ TEXT ABOVE */}
-      <div className="read-text">READ</div>
+      <div className="read-text">FOR YOU BABYYY!</div>
 
       <motion.div
         className="scroll"
@@ -21,12 +21,12 @@ export default function LoveLetter({ onOpen, onBack }) {
           <p>
             Msupaa <br /><br />
             Hey babe I want to start by saying that i love you so much <br />
-            Every smile, every moment, every memory with you <br />
-            feels like destiny gently written in time. <br /><br />
-            This is not just a letter, <br />
-            it is my heart — written in lines of code, <br />
-            crafted with love meant only for you. <br /><br />
-            Xoxo your smart Senior developer girlfriend TYYYY 💻❤️
+            Sometimes I ask myself how did i get so lucky to be with someone like you babe.<br />
+            You are so sweet,kind and caring,you make me feel so safe and comfortable when I'm around you and I really appreciate that.  <br /><br />
+            I know simple lines of codes aren't enough for me to show you how i love you but every line of code carries my love for you babe.<br />
+            I love the way you make me feel so seen,you pay attention to every detail that I say,and this made me unmask a version of myself that is more open and more deeply connected with you.<br />
+            Babe,know that I love you the way you are,you are perfect in every way you could think of,I'm not bluffing but hey this is me this is how inlove I'm with you.I LOVE YOU. <br /><br />
+            ~Xoxo your smart Senior developer,TY❤️~
           </p>
 
           {/* GIF INSIDE LETTER */}

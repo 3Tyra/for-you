@@ -7,15 +7,17 @@ html, body {
 }
 
 .letter-wrapper {
-  height: 100vh;
+  min-height: 100vh;
   width: 100vw;
+  overflow-y: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background: palevioletred;
-  font-family: 'Poppins', sans-serif;
 }
+
+
 
 /* READ TEXT */
 .read-text {
